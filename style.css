@@ -1,0 +1,134 @@
+*html{
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: century;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7em;
+}
+body{
+    position: relative;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 8%;
+}
+ header img{
+    position: absolute;
+    margin: px;
+    padding: 0px 30px;
+    left: 30px;
+    margin-top: 0px;
+    display: flex;
+}
+ul{
+    list-style: none;
+    float: right;
+    margin-top: 10px;
+    display: flex;
+}
+ul li a{
+    color: grey;
+    text-decoration: none;
+    padding: 0px 5px;
+    font-size: 2rem;
+    margin: 0px;
+    font-weight: 500;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    color: rgb(126, 214, 185);
+}
+section h1{
+    padding-top: 90px ;
+    color: rgb(117, 211, 180);
+    margin: 80px;
+    font-weight: 300; 
+}
+section img{
+    width: 4%;
+    position: absolute;
+    left: 380px;
+    padding-top: 30px;
+}
+section #propos{
+    vertical-align: inherit;
+    display:flex;
+    padding-top: 90px ;
+    margin: 80px;
+    font-weight: 300; 
+    justify-content: center;
+    align-items: normal;
+    grid-column: auto;
+    flex-wrap: wrap;
+}
+section ul li a:hover{
+    color: #fff;
+    background-color: rgb(143, 214, 190);
+}
+div #section3logos{
+    display: grid;
+    align-content: flex-end;
+}
+
+section #pageslogo image{
+    margin: 10px;
+   width: 5%;
+   content: space-between;
+   position: absolute;
+   flex-direction: column;
+   display: inline-grid;
+}
+#leader{
+    background-color: rgb(144, 221, 195); width: 1100px;;
+    background-image: url(GroupeDocplanner_files/Logo.png);
+    justify-content: right;
+    float: right;
+    left: 100%;
+   
+}
+#leader h1{
+    color: rgb(6, 60, 42);
+    flex-wrap: wrap;
+    content: right;
+}
+
+div #leader{
+    grid-template-columns: max-content;
+    grid-template-rows: max-content;
+
+}
+.section5{
+    margin: 5px;
+    float: left;
+    justify-content: flex;
+    align-content: center;
+    width: 100%;
+    flex-direction: column-reverse;
+    display: grid;
+    list-style: none;
+    text-decoration-line: none;
+}
+ .section5 div ul button:hover{
+    background-color: blue;
+    color: #fff;
+}
+#section6 button:hover{
+    background-color: blue;
+    color: #fff;
+    background-position: center;
+}
+
+
+
