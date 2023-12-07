@@ -11,6 +11,7 @@
 body{
     position: relative;
 }
+/* section hearder */
 
 header{
     position: fixed;
@@ -62,36 +63,32 @@ section img{
     left: 380px;
     padding-top: 30px;
 }
-section #propos{
-    vertical-align: inherit;
-    display:flex;
-    padding-top: 90px ;
-    margin: 80px;
-    font-weight: 300; 
-    justify-content: center;
-    align-items: normal;
-    grid-column: auto;
-    flex-wrap: wrap;
+#propos{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
 }
 section ul li a:hover{
     color: #fff;
     background-color: rgb(143, 214, 190);
-}
-div #section3logos{
-    display: grid;
-    align-content: flex-end;
-}
+} 
 
-section #pageslogo image{
-    margin: 10px;
-   width: 5%;
-   content: space-between;
-   position: absolute;
+/* section3 */
+
+#section3logos img{
+align-content: center;
    flex-direction: column;
-   display: inline-grid;
+   content: center;
+   width: 5%;
+   margin: 5px;
 }
+#pageslogo #section3logos img{
+   flex-direction: column;
+   display: flex;
+}
+.selection,
 #leader{
-    background-color: rgb(144, 221, 195); width: 1100px;;
+    background-color: rgb(158, 214, 195); width: 1100px;;
     background-image: url(GroupeDocplanner_files/Logo.png);
     justify-content: right;
     float: right;
@@ -104,12 +101,38 @@ section #pageslogo image{
     content: right;
 }
 
-div #leader{
-    grid-template-columns: max-content;
-    grid-template-rows: max-content;
-
+#leader{
+       display: flex;
+      }
+      #selection{
+        display: flex;
+      }
+      #selection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        text-align: center;
+        width: 220px;
+        border-radius: 2px;
 }
-.section5{
+.section4-3 p{
+    text-align: center;
+    font-size: 12px;
+    font-family: Roboto, Arial, sans-serif;
+    color: #ababab;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.section5 div{
+    border-radius: 3%;
+    margin: 0.44%;
+}
+
+/* with section 6 */
+
+.section6{
     margin: 5px;
     float: left;
     justify-content: flex;
@@ -120,15 +143,74 @@ div #leader{
     list-style: none;
     text-decoration-line: none;
 }
- .section5 div ul button:hover{
-    background-color: blue;
-    color: #fff;
+ .section6 div ul button:hover{
+        margin-left: 120px;
+        background-color: #3d83df;
+        color: #fff;
+        font-family: Roboto, Arial, sans-serif;
+        border-radius: 4px;
+        text-align: center;
+        border: #fff;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 14px;
+        padding-right: 14px;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        font-size: 12px;
 }
-#section6 button:hover{
-    background-color: blue;
+.section5 button{
+    margin-left: 120px;
+    background-color: #3d83df;
     color: #fff;
-    background-position: center;
+    font-family: Roboto, Arial, sans-serif;
+    border-radius: 4px;
+    text-align: center;
+    border: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    font-size: 12px;
 }
+#section6 a{
+    display: inline;
+    flex-direction: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 12px;
+}
+.section6 h2{
+    color: black;
+}
+#section6 button{
+    margin-left: 120px;
+  background-color: #3d83df;
+  color: #fff;
+  font-family: Roboto, Arial, sans-serif;
+  border-radius: 4px;
+  text-align: center;
+  border: #fff;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 14px;
+  padding-right: 14px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  font-size: 12px;
+}
+#section6 p{
+    text-align: center;
+  font-size: 12px;
+  font-family: Roboto, Arial, sans-serif;
+  color: #ababab;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+
 
 
 
