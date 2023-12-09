@@ -28,10 +28,12 @@ header{
  header img{
     position: absolute;
     margin: px;
-    padding: 0px 20px;
-    left: 20px;
+    padding: 0px 30px;
+    left: 30px;
     margin-top: 0px;
     display: flex;
+      width: 30%;
+    height: 30%;
 }
 ul{
     list-style: none;
