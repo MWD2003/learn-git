@@ -28,8 +28,8 @@ header{
  header img{
     position: absolute;
     margin: px;
-    padding: 0px 30px;
-    left: 30px;
+    padding: 0px 20px;
+    left: 20px;
     margin-top: 0px;
     display: flex;
 }
@@ -180,7 +180,7 @@ align-content: center;
     flex-direction: flex;
     text-align: center;
     justify-content: center;
-    font-size: 12px;
+    font-size: 6px;
 }
 .section6 h2{
     color: black;
@@ -206,8 +206,8 @@ align-content: center;
   font-size: 12px;
   font-family: Roboto, Arial, sans-serif;
   color: #ababab;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 90px;
+  padding-right: 90px;
 }
 
 
